@@ -1,2 +1,3 @@
-a,b,c=map(int,input().split())
-print(a*b*c//100)
+p,t,r=map(int,input().split())
+interest=(p*t*r)/100
+print(int(interest))
